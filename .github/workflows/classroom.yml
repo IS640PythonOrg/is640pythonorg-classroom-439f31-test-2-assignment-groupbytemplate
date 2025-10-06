@@ -17,7 +17,7 @@ jobs:
         run: pip install pandas
 
       - name: Run student script
-        run: python groupbyscript.py
+        run: python group_by_script.py
 
       - name: Check if results.csv exists
         run: |
