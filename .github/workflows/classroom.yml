@@ -32,7 +32,7 @@ jobs:
         env:
           PAT: ${{ secrets.TEST_DATA_PAT }}  # Use the stored PAT
         run: |
-          git clone https://$PAT@github.com/IS640PythonOrg/is640pythonorg-classroom-test-data.git test-data
+          git clone https://github.com/hans-r7/is640pythonorg-classroom-test-data.git test-data
 
       - name: Compare results with expected output
         run: |
